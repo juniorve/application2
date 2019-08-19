@@ -1,4 +1,3 @@
-import { HeaderComponent } from './../header/header.component';
 import { EmployeeListItemComponent } from './employee-list/employee-list-item/employee-list-item.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { EmployeeListComponent } from './employee-list/employee-list.component';
@@ -15,8 +14,7 @@ import { EmployeePageModule } from '../employee-page/employee-page.module';
     HomePageComponent,
     EmployeeListComponent,
     SearchBarComponent,
-    EmployeeListItemComponent,
-    HeaderComponent
+    EmployeeListItemComponent
   ],
   imports: [
     EmployeePageModule,

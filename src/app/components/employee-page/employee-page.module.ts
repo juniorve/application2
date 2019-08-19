@@ -10,7 +10,8 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     EmployeePageComponent,
-    InfoComponent
+    InfoComponent,
+    HeaderComponent
   ],
   imports: [
     CommonModule,
@@ -19,6 +20,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
     ReactiveFormsModule,
     FormsModule
   ],
+  exports:[HeaderComponent],
   providers:[employeePageRoutingProviders]
 })
 export class EmployeePageModule { }

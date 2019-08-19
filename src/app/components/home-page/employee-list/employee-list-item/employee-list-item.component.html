@@ -2,11 +2,11 @@
 <div *ngFor="let employee of ListEmployees" class="content-items col-xs-12">
     <div class="items">
       <div class="content-img">
-        <img [src]="employee.img" class="img-employee">
+        <img [src]="employee.img" class="img-employee" (click)="infoEmployee(employee.id)">
       </div>
       <div class="content-info">
         <div class="data">
-          <p class="name">
+          <p class="name" (click)="infoEmployee(employee.id)">
             {{employee.fullname}}
           </p>
           <p class="position">
