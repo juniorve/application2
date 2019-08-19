@@ -1,0 +1,12 @@
+/* .content-global{
+    box-shadow: 1px 1px 2px 2px silver;
+} */
+
+.row div{
+    width: 100%;
+}
+
+.content-header{
+    background: cadetblue;
+    color: white;
+}

@@ -1,0 +1,12 @@
+.example-container {
+    width: 100%;
+    height: 64px;
+  }
+
+.fa-search{
+    font-size: 35px;
+    margin-top: 15px;
+    margin-left: -39px;
+    color: silver;
+    cursor: pointer;
+}
