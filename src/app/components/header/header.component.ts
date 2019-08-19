@@ -1,3 +1,4 @@
+import { Router, ActivatedRoute } from '@angular/router';
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
@@ -7,9 +8,16 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 @Input() public header:string;
-  constructor() { }
+@Input() public bandera=false;
+@Input() public ruta;
+  constructor(private router:Router, private route:ActivatedRoute) { }
 
   ngOnInit() {
+  }
+
+  return(){
+    console.log(this.ruta);
+    this.router.navigate([this.ruta],{relativeTo:this.route});
   }
 
 }

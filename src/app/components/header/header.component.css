@@ -1,10 +1,18 @@
- p{
+ .text-header{
     font-weight: bold;
     font-size: 23px;
     font-family: serif;
     margin-top: 17px;
+    margin-left: 20px;
 }
 
 .content-header{
- text-align: center;
+ display: inline-flex;
+}
+
+.return{
+    font-size: 23px;
+    margin-top: 23px;
+    cursor: pointer;
+    margin-left: 5px;
 }

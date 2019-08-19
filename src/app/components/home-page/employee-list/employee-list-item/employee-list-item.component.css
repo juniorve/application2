@@ -1,14 +1,39 @@
-.content-items{
-    height: 86px;
-    border: 1px solid silver;
-}
-
 .img-employee{
-    height:84px;
     width: 100%;
     cursor: pointer;
     /* border-radius: 50%; */
 }
+
+.content-items{
+    border: 1px solid silver;
+} 
+
+@media (max-width: 400px) {
+    .img-employee{
+        height:84px;
+    }
+    .content-items{
+        height: 86px;
+    }
+}
+@media (min-width: 401px) {
+    .img-employee{
+        height:140px;
+    }
+    .content-items{
+        height: 140px;
+    }
+  }
+
+  
+  @media (min-width: 992px) {
+    .img-employee{
+        height:160px;
+    }
+    .content-items{
+        height: 160px;
+    } 
+  }
 
 .items{
     display: inline-flex;
